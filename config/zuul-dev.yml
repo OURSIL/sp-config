@@ -1,4 +1,9 @@
 spring:
+  rabbitmq:
+    host: 192.168.159.133
+    port: 5672
+    username: admin
+    password: admin
   application:
     name: zuul
     
@@ -40,6 +45,6 @@ management:
       
 # zuul:
 #  routes:
-# item-service: "/item-service/**"  #此处配置和服务名相同时会自动配置，会从eureka拿到serviceid来配置路径
+# item-service: "/item-service/**"  #姝ゅ閰嶇疆鍜屾湇鍔″悕鐩稿悓鏃朵細鑷姩閰嶇疆锛屼細浠巈ureka鎷垮埌serviceid鏉ラ厤缃矾寰�
 #    user-service: "/user-service/**"
 #    order-service: "/order-service/**"             
